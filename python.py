@@ -10,7 +10,7 @@ def name_shuffler(str_):
     
  
     if len(name_parts) != 2:
-        return "Please provide exactly one firstname and one lastname."
+        return "isim familiya kiriting"
     
   
     firstname, lastname = name_parts
@@ -19,5 +19,5 @@ def name_shuffler(str_):
     return swapped_name
 
 
-full_name = "John Doe"
+full_name = "isomiddinov isfandiyor"
 print(name_shuffler(full_name)) 
